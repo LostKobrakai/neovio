@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DE0B8E594C39DF24D934A41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903689927439732A1333F05B /* Assets.xcassets */; };
+		15BB38F988E18445B61AFE1F /* Neovio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE49B7238A6E8C349A159FA /* Neovio.swift */; };
+		383E00C64C2818685AB368BF /* LiveViewNative in Frameworks */ = {isa = PBXBuildFile; productRef = A8BD03F698A520949A02E494 /* LiveViewNative */; };
+		5DB6C2CC6E0814FE2A835C9C /* ConnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A535B3C413D326C145CFAE /* ConnectingView.swift */; };
+		648ED1F7ECDFDEE4FFC1DFFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2FB1D2BBA30E315ADB4C0E6 /* Preview Assets.xcassets */; };
+		6D682CAF4CA25E0E4507EC97 /* DisconnectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279C3B340918019FBD10D886 /* DisconnectedView.swift */; };
+		723D3D76DD7689AF99457553 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2FB1D2BBA30E315ADB4C0E6 /* Preview Assets.xcassets */; };
+		741AE3DF046EA4836DD4CE6A /* DisconnectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279C3B340918019FBD10D886 /* DisconnectedView.swift */; };
+		741B8244AE5EECE97BF15377 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEDD100D9C5F16923DDB021 /* ContentView.swift */; };
+		87BA3B84E22552A7A56DECE6 /* LiveViewNative in Frameworks */ = {isa = PBXBuildFile; productRef = FD8C76ED3C6CEAFD7EC1FD71 /* LiveViewNative */; };
+		87DA275D259AE725309F4F10 /* ConnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A535B3C413D326C145CFAE /* ConnectingView.swift */; };
+		96910E564F6A7C783DD4E2E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903689927439732A1333F05B /* Assets.xcassets */; };
+		9D632613D3EAB096B805941D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEDD100D9C5F16923DDB021 /* ContentView.swift */; };
+		9D75DDF36081DE9852299599 /* ReconnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813C1B6F01ACDAE5160327D5 /* ReconnectingView.swift */; };
+		A43B7E7ADFDDB0430260A4F9 /* ReconnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813C1B6F01ACDAE5160327D5 /* ReconnectingView.swift */; };
+		B068DC12032ABB25F7633A09 /* LiveViewNativeLiveForm in Frameworks */ = {isa = PBXBuildFile; productRef = E0575A88EF12847D9ABD8787 /* LiveViewNativeLiveForm */; };
+		D89BB5852F428E91E1F1D8F0 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3E6CF4AA04F024ACA9000C /* ErrorView.swift */; };
+		E042CC8D457A68D02DF7AB8A /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3E6CF4AA04F024ACA9000C /* ErrorView.swift */; };
+		E5A92C4D6884DAB7E21AF7D3 /* Neovio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE49B7238A6E8C349A159FA /* Neovio.swift */; };
+		FEDA57B2D8554278561849FD /* LiveViewNativeLiveForm in Frameworks */ = {isa = PBXBuildFile; productRef = EA8FD04BBBEF52D1D31CDC2F /* LiveViewNativeLiveForm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		279C3B340918019FBD10D886 /* DisconnectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisconnectedView.swift; sourceTree = "<group>"; };
+		3CE49B7238A6E8C349A159FA /* Neovio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neovio.swift; sourceTree = "<group>"; };
+		813C1B6F01ACDAE5160327D5 /* ReconnectingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReconnectingView.swift; sourceTree = "<group>"; };
+		903689927439732A1333F05B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6B000AFF493E8D375CC067C /* Neovio Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neovio Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFEDD100D9C5F16923DDB021 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C2FB1D2BBA30E315ADB4C0E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E8719AC5653A8A97CAE2793A /* Neovio.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Neovio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A535B3C413D326C145CFAE /* ConnectingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectingView.swift; sourceTree = "<group>"; };
+		FB3E6CF4AA04F024ACA9000C /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CE7D3674DC908C32F8C1C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BA3B84E22552A7A56DECE6 /* LiveViewNative in Frameworks */,
+				FEDA57B2D8554278561849FD /* LiveViewNativeLiveForm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762BA79B0AE8879645FED290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383E00C64C2818685AB368BF /* LiveViewNative in Frameworks */,
+				B068DC12032ABB25F7633A09 /* LiveViewNativeLiveForm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06C56E834FA7F71B03A2637A = {
+			isa = PBXGroup;
+			children = (
+				4D47A3C1206AA529CF151833 /* Neovio */,
+				13F59F9860617738C3D32F66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13F59F9860617738C3D32F66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6B000AFF493E8D375CC067C /* Neovio Watch App.app */,
+				E8719AC5653A8A97CAE2793A /* Neovio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D47A3C1206AA529CF151833 /* Neovio */ = {
+			isa = PBXGroup;
+			children = (
+				CB3EE7443605114D697DBBE1 /* Preview Content */,
+				903689927439732A1333F05B /* Assets.xcassets */,
+				F3A535B3C413D326C145CFAE /* ConnectingView.swift */,
+				BFEDD100D9C5F16923DDB021 /* ContentView.swift */,
+				279C3B340918019FBD10D886 /* DisconnectedView.swift */,
+				FB3E6CF4AA04F024ACA9000C /* ErrorView.swift */,
+				3CE49B7238A6E8C349A159FA /* Neovio.swift */,
+				813C1B6F01ACDAE5160327D5 /* ReconnectingView.swift */,
+			);
+			path = Neovio;
+			sourceTree = "<group>";
+		};
+		CB3EE7443605114D697DBBE1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C2FB1D2BBA30E315ADB4C0E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		445E5DF382E7E79D3EB14259 /* Neovio Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1BDC55A11E863A19307465D /* Build configuration list for PBXNativeTarget "Neovio Watch App" */;
+			buildPhases = (
+				7589956B4AF367565CAF2A28 /* Sources */,
+				4CA1441778C5982B7B8F92AE /* Resources */,
+				762BA79B0AE8879645FED290 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Neovio Watch App";
+			packageProductDependencies = (
+				A8BD03F698A520949A02E494 /* LiveViewNative */,
+				E0575A88EF12847D9ABD8787 /* LiveViewNativeLiveForm */,
+			);
+			productName = "Neovio Watch App";
+			productReference = A6B000AFF493E8D375CC067C /* Neovio Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4A0F8E048929AFEE72E8BD3 /* Neovio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 039994ACACAEA3820861C40E /* Build configuration list for PBXNativeTarget "Neovio" */;
+			buildPhases = (
+				70B23A3FAFCE3983068C452F /* Sources */,
+				7A12F60C36149C7C4F95D42F /* Resources */,
+				0CE7D3674DC908C32F8C1C8B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neovio;
+			packageProductDependencies = (
+				FD8C76ED3C6CEAFD7EC1FD71 /* LiveViewNative */,
+				EA8FD04BBBEF52D1D31CDC2F /* LiveViewNativeLiveForm */,
+			);
+			productName = Neovio;
+			productReference = E8719AC5653A8A97CAE2793A /* Neovio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3E05270C72913385D6F7B64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 3F09DA69F638E91545066835 /* Build configuration list for PBXProject "Neovio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 06C56E834FA7F71B03A2637A;
+			packageReferences = (
+				84639793C5F9A30C73A4725C /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */,
+				6F095CEB0D1B58A74402C345 /* XCRemoteSwiftPackageReference "liveview-native-live-form" */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4A0F8E048929AFEE72E8BD3 /* Neovio */,
+				445E5DF382E7E79D3EB14259 /* Neovio Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CA1441778C5982B7B8F92AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96910E564F6A7C783DD4E2E5 /* Assets.xcassets in Resources */,
+				723D3D76DD7689AF99457553 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A12F60C36149C7C4F95D42F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE0B8E594C39DF24D934A41 /* Assets.xcassets in Resources */,
+				648ED1F7ECDFDEE4FFC1DFFF /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70B23A3FAFCE3983068C452F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB6C2CC6E0814FE2A835C9C /* ConnectingView.swift in Sources */,
+				741B8244AE5EECE97BF15377 /* ContentView.swift in Sources */,
+				741AE3DF046EA4836DD4CE6A /* DisconnectedView.swift in Sources */,
+				E042CC8D457A68D02DF7AB8A /* ErrorView.swift in Sources */,
+				15BB38F988E18445B61AFE1F /* Neovio.swift in Sources */,
+				9D75DDF36081DE9852299599 /* ReconnectingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7589956B4AF367565CAF2A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87DA275D259AE725309F4F10 /* ConnectingView.swift in Sources */,
+				9D632613D3EAB096B805941D /* ContentView.swift in Sources */,
+				6D682CAF4CA25E0E4507EC97 /* DisconnectedView.swift in Sources */,
+				D89BB5852F428E91E1F1D8F0 /* ErrorView.swift in Sources */,
+				E5A92C4D6884DAB7E21AF7D3 /* Neovio.swift in Sources */,
+				A43B7E7ADFDDB0430260A4F9 /* ReconnectingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0634F3A6A687845EB5F3BF46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Neovio;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.Neovio;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		08EC7B6D764D9C25143328C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Neovio;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator appletvos appletvsimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+			};
+			name = Release;
+		};
+		59AFAA3CB049B316DDAD9002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Neovio;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator appletvos appletvsimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+			};
+			name = Debug;
+		};
+		68F6AB8FD7CF85501E207FF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Neovio;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.Neovio;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		ACF95724E7383F6E88DABAB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Neovio.watchkit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		B7DE59422C7BAF9237BEA6F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Neovio.watchkit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		039994ACACAEA3820861C40E /* Build configuration list for PBXNativeTarget "Neovio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59AFAA3CB049B316DDAD9002 /* Debug */,
+				08EC7B6D764D9C25143328C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3F09DA69F638E91545066835 /* Build configuration list for PBXProject "Neovio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F6AB8FD7CF85501E207FF0 /* Debug */,
+				0634F3A6A687845EB5F3BF46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B1BDC55A11E863A19307465D /* Build configuration list for PBXNativeTarget "Neovio Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF95724E7383F6E88DABAB4 /* Debug */,
+				B7DE59422C7BAF9237BEA6F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6F095CEB0D1B58A74402C345 /* XCRemoteSwiftPackageReference "liveview-native-live-form" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/liveview-native/liveview-native-live-form";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+		84639793C5F9A30C73A4725C /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/liveview-native/liveview-client-swiftui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A8BD03F698A520949A02E494 /* LiveViewNative */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84639793C5F9A30C73A4725C /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */;
+			productName = LiveViewNative;
+		};
+		E0575A88EF12847D9ABD8787 /* LiveViewNativeLiveForm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F095CEB0D1B58A74402C345 /* XCRemoteSwiftPackageReference "liveview-native-live-form" */;
+			productName = LiveViewNativeLiveForm;
+		};
+		EA8FD04BBBEF52D1D31CDC2F /* LiveViewNativeLiveForm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F095CEB0D1B58A74402C345 /* XCRemoteSwiftPackageReference "liveview-native-live-form" */;
+			productName = LiveViewNativeLiveForm;
+		};
+		FD8C76ED3C6CEAFD7EC1FD71 /* LiveViewNative */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84639793C5F9A30C73A4725C /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */;
+			productName = LiveViewNative;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C3E05270C72913385D6F7B64 /* Project object */;
+}
