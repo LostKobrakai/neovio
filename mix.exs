@@ -9,7 +9,8 @@ defmodule Neovio.MixProject do
       elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: Mix.env() == :prod,
       aliases: aliases(),
-      deps: deps()
+      deps: deps(),
+      releases: releases()
     ]
   end
 
@@ -62,7 +63,8 @@ defmodule Neovio.MixProject do
       {:live_view_native, "~> 0.3.0"},
       {:live_view_native_stylesheet, "~> 0.3.0"},
       {:live_view_native_swiftui, "~> 0.3.0"},
-      {:live_view_native_live_form, "~> 0.3.0"}
+      {:live_view_native_live_form, "~> 0.3.0"},
+      {:burrito, "~> 1.0"}
     ]
   end
 
@@ -84,6 +86,19 @@ defmodule Neovio.MixProject do
         "tailwind neovio --minify",
         "esbuild neovio --minify",
         "phx.digest"
+      ]
+    ]
+  end
+
+  defp releases do
+    [
+      neovio: [
+        steps: [:assemble, &Burrito.wrap/1],
+        burrito: [
+          targets: [
+            macos: [os: :darwin, cpu: :aarch64]
+          ]
+        ]
       ]
     ]
   end

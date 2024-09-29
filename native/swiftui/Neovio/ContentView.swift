@@ -12,7 +12,7 @@ struct ContentView: View {
         #LiveView(
             .automatic(
                 development: .localhost(path: "/"),
-                production: URL(string: "https://example.com")!
+                production: .localhost(path: "/")
             ),
             addons: [
                .liveForm

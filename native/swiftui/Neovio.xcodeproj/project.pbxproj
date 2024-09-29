@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,11 +23,27 @@
 		9D75DDF36081DE9852299599 /* ReconnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813C1B6F01ACDAE5160327D5 /* ReconnectingView.swift */; };
 		A43B7E7ADFDDB0430260A4F9 /* ReconnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813C1B6F01ACDAE5160327D5 /* ReconnectingView.swift */; };
 		B068DC12032ABB25F7633A09 /* LiveViewNativeLiveForm in Frameworks */ = {isa = PBXBuildFile; productRef = E0575A88EF12847D9ABD8787 /* LiveViewNativeLiveForm */; };
+		B39FB94C2CA86B8D005CC898 /* WebServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39FB94B2CA86B8D005CC898 /* WebServerManager.swift */; };
+		B39FB9532CA872A0005CC898 /* neovio_macos in Resources */ = {isa = PBXBuildFile; fileRef = B39FB9522CA872A0005CC898 /* neovio_macos */; };
+		B39FB9542CA872A7005CC898 /* neovio_macos in CopyFiles */ = {isa = PBXBuildFile; fileRef = B39FB9522CA872A0005CC898 /* neovio_macos */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		D89BB5852F428E91E1F1D8F0 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3E6CF4AA04F024ACA9000C /* ErrorView.swift */; };
 		E042CC8D457A68D02DF7AB8A /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3E6CF4AA04F024ACA9000C /* ErrorView.swift */; };
 		E5A92C4D6884DAB7E21AF7D3 /* Neovio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE49B7238A6E8C349A159FA /* Neovio.swift */; };
 		FEDA57B2D8554278561849FD /* LiveViewNativeLiveForm in Frameworks */ = {isa = PBXBuildFile; productRef = EA8FD04BBBEF52D1D31CDC2F /* LiveViewNativeLiveForm */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B39FB9492CA86B5A005CC898 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				B39FB9542CA872A7005CC898 /* neovio_macos in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		279C3B340918019FBD10D886 /* DisconnectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisconnectedView.swift; sourceTree = "<group>"; };
@@ -35,9 +51,11 @@
 		813C1B6F01ACDAE5160327D5 /* ReconnectingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReconnectingView.swift; sourceTree = "<group>"; };
 		903689927439732A1333F05B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6B000AFF493E8D375CC067C /* Neovio Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neovio Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39FB94B2CA86B8D005CC898 /* WebServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServerManager.swift; sourceTree = "<group>"; };
+		B39FB9522CA872A0005CC898 /* neovio_macos */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = neovio_macos; path = ../../burrito_out/neovio_macos; sourceTree = "<group>"; };
 		BFEDD100D9C5F16923DDB021 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C2FB1D2BBA30E315ADB4C0E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E8719AC5653A8A97CAE2793A /* Neovio.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Neovio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8719AC5653A8A97CAE2793A /* Neovio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neovio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A535B3C413D326C145CFAE /* ConnectingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectingView.swift; sourceTree = "<group>"; };
 		FB3E6CF4AA04F024ACA9000C /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +85,7 @@
 		06C56E834FA7F71B03A2637A = {
 			isa = PBXGroup;
 			children = (
+				B39FB9522CA872A0005CC898 /* neovio_macos */,
 				4D47A3C1206AA529CF151833 /* Neovio */,
 				13F59F9860617738C3D32F66 /* Products */,
 			);
@@ -92,6 +111,7 @@
 				FB3E6CF4AA04F024ACA9000C /* ErrorView.swift */,
 				3CE49B7238A6E8C349A159FA /* Neovio.swift */,
 				813C1B6F01ACDAE5160327D5 /* ReconnectingView.swift */,
+				B39FB94B2CA86B8D005CC898 /* WebServerManager.swift */,
 			);
 			path = Neovio;
 			sourceTree = "<group>";
@@ -135,6 +155,7 @@
 				70B23A3FAFCE3983068C452F /* Sources */,
 				7A12F60C36149C7C4F95D42F /* Resources */,
 				0CE7D3674DC908C32F8C1C8B /* Frameworks */,
+				B39FB9492CA86B5A005CC898 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -157,8 +178,6 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 3F09DA69F638E91545066835 /* Build configuration list for PBXProject "Neovio" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -198,6 +217,7 @@
 			files = (
 				0DE0B8E594C39DF24D934A41 /* Assets.xcassets in Resources */,
 				648ED1F7ECDFDEE4FFC1DFFF /* Preview Assets.xcassets in Resources */,
+				B39FB9532CA872A0005CC898 /* neovio_macos in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +231,7 @@
 				5DB6C2CC6E0814FE2A835C9C /* ConnectingView.swift in Sources */,
 				741B8244AE5EECE97BF15377 /* ContentView.swift in Sources */,
 				741AE3DF046EA4836DD4CE6A /* DisconnectedView.swift in Sources */,
+				B39FB94C2CA86B8D005CC898 /* WebServerManager.swift in Sources */,
 				E042CC8D457A68D02DF7AB8A /* ErrorView.swift in Sources */,
 				15BB38F988E18445B61AFE1F /* Neovio.swift in Sources */,
 				9D75DDF36081DE9852299599 /* ReconnectingView.swift in Sources */,
@@ -306,6 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

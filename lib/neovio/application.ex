@@ -9,10 +9,9 @@ defmodule Neovio.Application do
   def start(_type, _args) do
     children = [
       NeovioWeb.Telemetry,
-      Neovio.Repo,
-      {Ecto.Migrator,
-        repos: Application.fetch_env!(:neovio, :ecto_repos),
-        skip: skip_migrations?()},
+      # Neovio.Repo,
+      # {Ecto.Migrator,
+      #  repos: Application.fetch_env!(:neovio, :ecto_repos), skip: skip_migrations?()},
       {DNSCluster, query: Application.get_env(:neovio, :dns_cluster_query) || :ignore},
       {Phoenix.PubSub, name: Neovio.PubSub},
       # Start the Finch HTTP client for sending emails
